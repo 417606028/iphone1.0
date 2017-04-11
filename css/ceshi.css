@@ -1,0 +1,306 @@
+/*
+* @Author: 曹越
+* @Date:   2017-04-01 13:57:34
+* @Last Modified by:   曹越
+* @Last Modified time: 2017-04-01 14:29:13
+*/
+.container-fiuld{
+	width:100% ;
+	height: auto;
+	margin:0 auto ;
+}
+
+
+/* 固定宽度 */
+.container{
+	margin: 0 auto;
+}
+
+
+
+/* 所有有"col-"的都向左浮动 */
+[class*="col-"]{
+	float: left;
+}
+
+.box{
+	width: 100%;
+	height: auto;
+}
+.box div{
+	float: left;
+	height: 300px;
+	border: 1px solid red;
+	box-sizing: : border-box;
+}
+
+
+
+
+/* 超小屏 */
+@media screen and (max-width:768px){
+	.container{
+		width: 100%;
+	}
+	.col-xs-1{
+		width:5% ;
+	}
+	.col-xs-2{
+		width:10% ;
+	}
+	.col-xs-3{
+		width:15% ;
+	}
+	.col-xs-4{
+		width:20% ;
+	}
+	.col-xs-5{
+		width:25% ;
+	}
+	.col-xs-6{
+		width:30% ;
+	}
+	.col-xs-7{
+		width:35% ;
+	}
+	.col-xs-8{
+		width:40% ;
+	}
+	.col-xs-9{
+		width:45% ;
+	}
+	.col-xs-10{
+		width:50% ;
+	}
+	.col-xs-11{
+		width:55% ;
+	}
+	.col-xs-12{
+		width:60% ;
+	}
+	.col-xs-13{
+		width:65% ;
+	}
+	.col-xs-14{
+		width:70% ;
+	}
+	.col-xs-15{
+		width:75% ;
+	}
+	.col-xs-16{
+		width:80% ;
+	}
+	.col-xs-17{
+		width:85% ;
+	}
+	.col-xs-18{
+		width:90% ;
+	}
+	.col-xs-19{
+		width:95% ;
+	}
+	.col-xs-20{
+		width:100% ;
+	}
+}
+
+/* 小屏 */
+@media screen and (min-width:768px){
+	.container{
+		width: 768px;
+	}
+	.col-xs-1{
+		width:5% ;
+	}
+	.col-xs-2{
+		width:10% ;
+	}
+	.col-xs-3{
+		width:15% ;
+	}
+	.col-xs-4{
+		width:20% ;
+	}
+	.col-xs-5{
+		width:25% ;
+	}
+	.col-xs-6{
+		width:30% ;
+	}
+	.col-xs-7{
+		width:35% ;
+	}
+	.col-xs-8{
+		width:40% ;
+	}
+	.col-xs-9{
+		width:45% ;
+	}
+	.col-xs-10{
+		width:50% ;
+	}
+	.col-xs-11{
+		width:55% ;
+	}
+	.col-xs-12{
+		width:60% ;
+	}
+	.col-xs-13{
+		width:65% ;
+	}
+	.col-xs-14{
+		width:70% ;
+	}
+	.col-xs-15{
+		width:75% ;
+	}
+	.col-xs-16{
+		width:80% ;
+	}
+	.col-xs-17{
+		width:85% ;
+	}
+	.col-xs-18{
+		width:90% ;
+	}
+	.col-xs-19{
+		width:95% ;
+	}
+	.col-xs-20{
+		width:100% ;
+	}
+}
+
+/* 中屏 */
+@media screen and (min-width:992px){
+	.container{
+		width: 992px;
+	}
+	.col-xs-1{
+		width:5% ;
+	}
+	.col-xs-2{
+		width:10% ;
+	}
+	.col-xs-3{
+		width:15% ;
+	}
+	.col-xs-4{
+		width:20% ;
+	}
+	.col-xs-5{
+		width:25% ;
+	}
+	.col-xs-6{
+		width:30% ;
+	}
+	.col-xs-7{
+		width:35% ;
+	}
+	.col-xs-8{
+		width:40% ;
+	}
+	.col-xs-9{
+		width:45% ;
+	}
+	.col-xs-10{
+		width:50% ;
+	}
+	.col-xs-11{
+		width:55% ;
+	}
+	.col-xs-12{
+		width:60% ;
+	}
+	.col-xs-13{
+		width:65% ;
+	}
+	.col-xs-14{
+		width:70% ;
+	}
+	.col-xs-15{
+		width:75% ;
+	}
+	.col-xs-16{
+		width:80% ;
+	}
+	.col-xs-17{
+		width:85% ;
+	}
+	.col-xs-18{
+		width:90% ;
+	}
+	.col-xs-19{
+		width:95% ;
+	}
+	.col-xs-20{
+		width:100% ;
+	}
+}
+
+/* 大屏 */
+@media screen and (min-width:1200px){
+	.container{
+		width: 1200px;
+	}
+	.col-xs-1{
+		width:5% ;
+	}
+	.col-xs-2{
+		width:10% ;
+	}
+	.col-xs-3{
+		width:15% ;
+	}
+	.col-xs-4{
+		width:20% ;
+	}
+	.col-xs-5{
+		width:25% ;
+	}
+	.col-xs-6{
+		width:30% ;
+	}
+	.col-xs-7{
+		width:35% ;
+	}
+	.col-xs-8{
+		width:40% ;
+	}
+	.col-xs-9{
+		width:45% ;
+	}
+	.col-xs-10{
+		width:50% ;
+	}
+	.col-xs-11{
+		width:55% ;
+	}
+	.col-xs-12{
+		width:60% ;
+	}
+	.col-xs-13{
+		width:65% ;
+	}
+	.col-xs-14{
+		width:70% ;
+	}
+	.col-xs-15{
+		width:75% ;
+	}
+	.col-xs-16{
+		width:80% ;
+	}
+	.col-xs-17{
+		width:85% ;
+	}
+	.col-xs-18{
+		width:90% ;
+	}
+	.col-xs-19{
+		width:95% ;
+	}
+	.col-xs-20{
+		width:100% ;
+	}
+}
